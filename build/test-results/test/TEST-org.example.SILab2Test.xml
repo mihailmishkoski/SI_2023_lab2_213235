@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.SILab2Test" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-05-19T21:51:05" hostname="MIHAIL" time="0.063">
+  <properties/>
+  <testcase name="ValidUserAndEmptyUserList()" classname="org.example.SILab2Test" time="0.034"/>
+  <testcase name="passowrdIsWithoutSpecialCharacters()" classname="org.example.SILab2Test" time="0.002"/>
+  <testcase name="passowrdAndEmailAreNull()" classname="org.example.SILab2Test" time="0.002"/>
+  <testcase name="passwordIsNull()" classname="org.example.SILab2Test" time="0.002"/>
+  <testcase name="passwordIsWithEmptySpace()" classname="org.example.SILab2Test" time="0.001"/>
+  <testcase name="passwordIsNotUniqueAndLongerThanEight()" classname="org.example.SILab2Test" time="0.002"/>
+  <testcase name="emailIsNull()" classname="org.example.SILab2Test" time="0.001"/>
+  <testcase name="userEqualsNullTest()" classname="org.example.SILab2Test" time="0.002"/>
+  <testcase name="passwordIsUniqueAndIsShorterThanEight()" classname="org.example.SILab2Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
