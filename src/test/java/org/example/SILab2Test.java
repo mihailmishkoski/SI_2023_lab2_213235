@@ -80,5 +80,29 @@ class SILab2Test {
         list.add(new User("Mihail", "pasw!@#!@#asdasd","mihail123miskoski@gmail.com"));
         assertEquals(false, SILab2.function(user, list));
     }
+    @Test
+    void userListIsEmpty() {
+        List<User> list = new ArrayList<>();
+        User user = new User("Username", "password123AZ!", "test@test.com");
+        assertTrue(SILab2.function(user, list));
+    }
+    @Test
+    void emailIsInvalid() {
+        List<User> list = new ArrayList<>();
+        User user = new User("Username", "password123AZ!", "invalid_email");
+        assertFalse(SILab2.function(user, list));
+    }
+    @Test
+    void passwordIsTooLong() {
+        List<User> list = new ArrayList<>();
+        User user = new User("Username", "verylongpassword1234567890", "username@gmail.com");
+        assertEquals(false, SILab2.function(user, list));
+    }
+    @Test
+    void usernameContainsWhitespace() {
+        List<User> list = new ArrayList<>();
+        User user = new User("User name", "password123!@", "username@gmail.com");
+        assertEquals(false, SILab2.function(user, list));
+    }
 
 }
