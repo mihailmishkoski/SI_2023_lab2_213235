@@ -7,7 +7,8 @@
 - зелен јазел:  Предикатен јазел
 - жолт јазел:  for циклус
 
-![SILab2 (4)](https://github.com/mihailmishkoski/SI_2023_lab2_213235/assets/104661985/16d0bbdb-ed7f-4d3f-a872-9c49373a8f5c)
+![SILab2 (4)](https://github.com/mihailmishkoski/SI_2023_lab2_213235/assets/104661985/c3bbba88-417b-4e60-adeb-0085f1ae39db)
+
 
 
 **Цикломатска комплексност**
