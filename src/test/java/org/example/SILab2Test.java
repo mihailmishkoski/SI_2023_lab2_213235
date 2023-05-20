@@ -8,7 +8,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SILab2Test {
-
+    //Every branch criteria
     @Test
     void ValidUserAndEmptyUserList() {
         User user = new User("Random", "!@#$aadsasz$", "randomrandomski@gmail.com");
@@ -17,11 +17,8 @@ class SILab2Test {
     }
     @Test
     void userEqualsNullTest() {
-        // Arrange
         List<User> list = new ArrayList<>();
         User user = null;
-
-        // Act & Assert
         assertThrows(RuntimeException.class, () -> {
             SILab2.function(user, list);
         });
@@ -80,6 +77,7 @@ class SILab2Test {
         list.add(new User("Mihail", "pasw!@#!@#asdasd","mihail123miskoski@gmail.com"));
         assertEquals(false, SILab2.function(user, list));
     }
+    //Multiple Condition criteria
     @Test
     void userListIsEmpty() {
         List<User> list = new ArrayList<>();
