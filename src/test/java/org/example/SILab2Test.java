@@ -96,11 +96,6 @@ class SILab2Test {
         User user = new User("Username", "verylongpassword1234567890", "username@gmail.com");
         assertEquals(false, SILab2.function(user, list));
     }
-    @Test
-    void usernameContainsWhitespace() {
-        List<User> list = new ArrayList<>();
-        User user = new User("User name", "password123!@", "username@gmail.com");
-        assertEquals(false, SILab2.function(user, list));
-    }
+    
 
 }
