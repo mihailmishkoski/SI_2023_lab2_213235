@@ -45,6 +45,4 @@ Multiple condition criteria (Критериум на повеќе услови) 
 -userListIsEmpty  
 -emailIsInvalid  
 -passwordIsTooLong  
--usernameContainsWhitespace  
 
-Програмата не работи правилно само кога се тестира последната метода, не би требало да може корисничкото име да е валидно доколку содржи празни места, но програмата го дозволи тоа.
